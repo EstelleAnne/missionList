@@ -1,0 +1,113 @@
+.mission-list-wrapper {
+  list-style: none;
+  font-size: 14px;
+  background: transparent; }
+  .mission-list-wrapper .margin-right5 {
+    margin-right: 5px; }
+  .mission-list-wrapper .margin-right10 {
+    margin-right: 10px; }
+  .mission-list-wrapper .color-un-use {
+    color: #8a8a8a; }
+  .mission-list-wrapper .font-size12 {
+    font-size: 12px; }
+  .mission-list-wrapper .mission-status {
+    margin-left: 25px;
+    width: 33px;
+    vertical-align: middle; }
+  .mission-list-wrapper .mission-type {
+    max-width: 84px;
+    line-height: 14px;
+    height: 18px;
+    vertical-align: middle;
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    display: inline;
+    color: #8a8a8a; }
+  .mission-list-wrapper .mission-item-left {
+    position: relative;
+    float: left;
+    vertical-align: middle;
+    height: 40px; }
+  .mission-list-wrapper .mission-item-right {
+    float: right;
+    padding-right: 10px; }
+  .mission-list-wrapper .mission-item-middle {
+    margin-left: 20px;
+    margin-right: 222px;
+    word-break: break-all;
+    display: inline-block; }
+  .mission-list-wrapper .mission-discription {
+    margin-right: 10px;
+    color: #333; }
+  .mission-list-wrapper .unType {
+    cursor: pointer; }
+  .mission-list-wrapper .unDescription {
+    color: #8a8a8a; }
+  .mission-list-wrapper .mission-limit {
+    background: #acd2a6;
+    color: #fff;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 10px; }
+  .mission-list-wrapper .mission-deadline {
+    color: #8a8a8a;
+    margin-right: 16px;
+    text-align: right;
+    width: 62px; }
+  .mission-list-wrapper .mission-ownner {
+    color: #555; }
+  .mission-list-wrapper .mission-item {
+    border-bottom: 1px solid #E4EBF0;
+    height: 40px;
+    line-height: 40px; }
+
+li {
+  list-style: none; }
+
+.changestate {
+  position: absolute;
+  z-index: 100000;
+  background-color: #fff;
+  border: 1px solid #c5c5c5;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  width: 100px;
+  padding: 5px 0; }
+
+.changestate ul {
+  padding: 0; }
+
+.statelist {
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px; }
+
+.changestate a {
+  color: #555;
+  display: block;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  text-decoration: none; }
+
+.changestate a:hover {
+  color: #145c98; }
+
+.changestate li:hover {
+  background-color: #ddd; }
+
+.ico {
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-left: 15px;
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  display: inline-block; }
+
+.lists {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  z-index: 100000; }

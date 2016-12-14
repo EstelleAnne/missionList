@@ -1,0 +1,53 @@
+li{
+	list-style: none;
+
+}
+.changestate{
+	position: absolute;
+
+	z-index: 100000;
+	background-color: #fff;
+    border: 1px solid #c5c5c5;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+    width: 100px;
+    padding: 5px 0;
+}
+.changestate ul{
+	padding:0; 
+
+}
+.statelist{
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	
+}
+.changestate a{
+	color: #555;
+	display: block;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	text-decoration: none;
+
+}
+.changestate a:hover{
+	color:#145c98;
+}
+.changestate li:hover{
+	background-color:#ddd 
+}
+.ico{
+	vertical-align:middle;
+	margin-right: 10px;
+	margin-left: 15px;
+	cursor: pointer;
+	width: 18px;
+	height: 18px;
+	display: inline-block;
+}
+.lists{
+	position: absolute;
+	top: 100px;
+	left: 50px;
+	z-index:100000;
+}
